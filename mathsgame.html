@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+        <link href="styling.css" rel="stylesheet">
+        <title>Maths Game</title>
+        <link href='https://fonts.googleapis.com/css?family=Arvo' rel='stylesheet' type='text/css'>
+    </head>
+    
+    <body>
+    <div class="container">
+         <div class="highscore" id="highscore">
+            High Score: <span id="highscorevalue">0</span>
+        </div>
+        <div class="score">
+            Score: <span id="scorevalue">0</span>
+        </div>
+        <div class="correct" id="correct">
+            Correct
+        </div>
+        <div class="wrong" id="wrong">
+            Try Again
+        </div>
+        <div class="display" id="display">
+           <p></p> 
+        </div>
+        <div class="dialog">
+            Click on the correct answer
+        </div>
+        <div class="buttons" id="allbutton">
+        <button type="button" id="button1"></button>
+        <button type="button" id="button2"></button>
+        <button type="button" id="button3"></button>
+        <button type="button" id="button4"></button>
+        </div>
+        
+        <div class="startreset"><button type="button" id="startreset">Start Game</button>
+        </div>
+        
+        <div class="remainingtime" id="counter">Remaining Time: <span id="remainingtime">60</span> Sec</div>
+        <div id="gameover">
+            
+        </div>
+    </div>
+    <script type="text/javascript" src="coding.js"></script>
+    </body>
+</html>
